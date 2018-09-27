@@ -6,7 +6,12 @@
 
 ### Пример использования сниппета со всеми параметрами:
 
-`{textGenerator' | snippet : [ 'inputChunk' => 'tpl.textGenerator.input', 'tpl' => 'tpl.textGenerator.item', ]}`
+```
+{textGenerator' | snippet : [
+  'inputChunk' => 'tpl.textGenerator.input',
+  'tpl' => 'tpl.textGenerator.item',
+]}
+```
 
 ### Как модификатор:
 
